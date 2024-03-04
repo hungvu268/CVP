@@ -1,6 +1,10 @@
 @media screen and (max-width: 600px) {
+  html{
+    overflow-x: hidden;
+  }
   body{
     overflow-x: hidden;
+    position: relative;
   }
   /* Banner */
   #banner h1 {
