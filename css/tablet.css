@@ -1,0 +1,31 @@
+@media screen and (max-width: 992px) {
+  /* Nav-bar */
+  #nav-bar .item.images {
+    width: 70px;
+    padding: 0;
+  }
+
+  .default-avatar {
+    display: none;
+  }
+
+  /* Job-info */
+  #job-info .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* certificate */
+  #certificate .flex-box {
+    display: block;
+  }
+
+  #certificate .flex-box .text {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  /* project */
+  #project .project img {
+    width: 180px;
+    display: block;
+  }
+}
